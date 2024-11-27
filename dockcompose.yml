@@ -6,7 +6,7 @@ volumes:
 services:
   web1:
     image: nyo
-    container_name : mycd
+    container_name : tr
     ports:
       - "8083:80"
     volumes:
